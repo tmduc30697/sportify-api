@@ -1,0 +1,23 @@
+{
+  "name": "sportify-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tmduc30697/sportify-api.git",
+  "author": "Minh Duc <tmduc30697@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "node --loader ts-node/esm src/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
